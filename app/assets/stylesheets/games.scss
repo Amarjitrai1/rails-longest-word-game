@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #3689DE;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.card:hover {
+  color: orange;
+  background-color: black;
+}
+
+.title {
+  font-weight: bold;
+  color: #3689DE;
+}
+
+.valid {
+  color: green;
+}
+
+.error {
+  color: red;
+}
